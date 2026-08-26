@@ -1,38 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Students - Student Management System</title>
+    <title>Students</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
-        <h1>Student Management System</h1>
+<header>
+    <h1>Student Management System</h1>
 
-        <nav>
-            <a href="index.html">Home</a> |
-            <a href="students.html">Students</a> |
-            <a href="courses.html">Courses</a> |
-            <a href="teachers.html">Teachers</a>
-        </nav>
-    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="students.html">Students</a>
+        <a href="courses.html">Courses</a>
+        <a href="teachers.html">Teachers</a>
+    </nav>
+</header>
 
-    <hr>
+<section>
+
+    <h2>Add Student</h2>
+
+    <input type="text" id="studentId" placeholder="Student ID">
+    <input type="text" id="studentName" placeholder="Student Name">
+    <input type="text" id="studentCourse" placeholder="Course">
+    <input type="text" id="studentYear" placeholder="Year">
+
+    <button onclick="addStudent()">Add Student</button>
+
+</section>
+
+<section>
 
     <h2>Student List</h2>
 
-    <button>Add New Student</button>
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Search student..."
+        onkeyup="searchStudent()"
+    >
 
     <br><br>
 
-    <table border="1" cellpadding="10">
+    <table id="studentTable">
+
         <tr>
             <th>ID</th>
             <th>Name</th>
             <th>Course</th>
             <th>Year</th>
-            <th>Email</th>
         </tr>
 
         <tr>
@@ -40,7 +58,6 @@
             <td>Rahul Sharma</td>
             <td>B.Tech CSE</td>
             <td>2nd Year</td>
-            <td>rahul@gmail.com</td>
         </tr>
 
         <tr>
@@ -48,7 +65,6 @@
             <td>Priya Singh</td>
             <td>B.Tech CSE</td>
             <td>2nd Year</td>
-            <td>priya@gmail.com</td>
         </tr>
 
         <tr>
@@ -56,9 +72,13 @@
             <td>Aman Gupta</td>
             <td>B.Tech IT</td>
             <td>3rd Year</td>
-            <td>aman@gmail.com</td>
         </tr>
+
     </table>
+
+</section>
+
+<script src="script.js"></script>
 
 </body>
 </html>

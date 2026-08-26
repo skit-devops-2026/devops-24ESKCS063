@@ -7,31 +7,29 @@
 
 <body>
 
-    <!-- Header -->
     <header>
         <h1>Student Management System</h1>
 
         <nav>
-            <a href="index.html">Home</a> |
-            <a href="students.html">Students</a> |
-            <a href="courses.html">Courses</a> |
+            <a href="index.html">Home</a>
+            <a href="students.html">Students</a>
+            <a href="courses.html">Courses</a>
             <a href="teachers.html">Teachers</a>
         </nav>
     </header>
 
-    <hr>
-
-    <!-- Welcome Section -->
     <section>
         <h2>Welcome to Student Management System</h2>
 
         <p>
-            A simple platform to manage student information,
-            courses, teachers and academic records.
+            A simple platform to manage students,
+            courses, teachers and academic information.
         </p>
 
+        <button onclick="welcomeMessage()">Welcome</button>
+
         <a href="students.html">
-            <button>View Students</button>
+            <button onclick="showMessage()">View Students</button>
         </a>
 
         <a href="courses.html">
@@ -43,13 +41,10 @@
         </a>
     </section>
 
-    <hr>
-
-    <!-- Dashboard -->
     <section>
         <h2>Dashboard</h2>
 
-        <table border="1" cellpadding="15">
+        <table>
             <tr>
                 <th>Total Students</th>
                 <th>Total Courses</th>
@@ -66,42 +61,20 @@
         </table>
     </section>
 
-    <hr>
-
-    <!-- Quick Actions -->
     <section>
         <h2>Quick Actions</h2>
 
         <ul>
-            <li>
-                <a href="students.html">View Student List</a>
-            </li>
-
-            <li>
-                <a href="courses.html">Manage Courses</a>
-            </li>
-
-            <li>
-                <a href="teachers.html">View Teachers</a>
-            </li>
-
-            <li>
-                <a href="students.html">View Attendance</a>
-            </li>
-
-            <li>
-                <a href="students.html">View Results</a>
-            </li>
+            <li><a href="students.html">View Student List</a></li>
+            <li><a href="courses.html">Manage Courses</a></li>
+            <li><a href="teachers.html">View Teachers</a></li>
         </ul>
     </section>
 
-    <hr>
-
-    <!-- Recent Students -->
     <section>
         <h2>Recent Students</h2>
 
-        <table border="1" cellpadding="10">
+        <table>
             <tr>
                 <th>ID</th>
                 <th>Name</th>
@@ -127,10 +100,12 @@
                 <td>103</td>
                 <td>Aman Gupta</td>
                 <td>B.Tech IT</td>
-                <td></td>
+                <td>3rd Year</td>
             </tr>
         </table>
     </section>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
