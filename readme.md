@@ -24,13 +24,3 @@ This Student Management System is a simple web application used to manage and di
 ```bash
 make install
 make run
-```
-
-## Live URL
-
-<Add once M5 is done. Until then, leave as is.>
-
-## Health endpoint
-
-`GET /health` returns the running commit SHA. See `Makefile` and the milestone
-sheet for why this is required.
