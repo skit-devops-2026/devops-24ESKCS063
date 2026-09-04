@@ -1,4 +1,4 @@
-# <Project Name>
+# Student Management System
 
 > Replace every angle-bracket placeholder below. The hygiene check in CI will
 > fail until you do.
@@ -11,13 +11,13 @@
 
 ## About
 
-<Two or three sentences on what this application does.>
+This Student Management System is a simple web application used to manage and display information about students, courses, and teachers. It allows users to add new records, search for students, and navigate between different sections. The project uses HTML, CSS, JavaScript, GitHub Actions, and Jenkins for development and CI.
 
 ## Tech stack
 
-- Frontend: <e.g. React>
-- Backend: <e.g. Node.js / Express>
-- Database: <e.g. PostgreSQL>
+- Frontend: HTML, CSS, JavaScript
+- Backend: None
+- Database: None
 
 ## Running locally
 
