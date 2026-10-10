@@ -6,7 +6,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/ROVENOM3/Student-Management-System'
+                    url: 'https://github.com/skit-devops-2026/devops-24ESKCS063'
             }
         }
 
