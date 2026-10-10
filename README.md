@@ -11,9 +11,6 @@
 
 ## About
 
-This Student Management System is a simple web application used to manage and display information about students, courses, and teachers. It allows users to add new records, search for students, and navigate between different sections. The project uses HTML, CSS, JavaScript, GitHub Actions, and Jenkins for development.
-
-Live URL: https://skit-devops-2026.github.io/devops-24ESKCS063/
 This Student Management System is a simple web application used to manage and display information about students, courses, and teachers. It allows users to add new records, search for students, and navigate between different sections. The project uses HTML, CSS, JavaScript, GitHub Actions, and Jenkins for development and CI.
 
 ## Tech stack
@@ -27,11 +24,11 @@ This Student Management System is a simple web application used to manage and di
 ```bash
 make install
 make run
-
+```
 
 ## Live URL
 
-<Add once M5 is done. Until then, leave as is.>
+https://devops-24eskcs063.onrender.com
 
 ## Health endpoint
 
