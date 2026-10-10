@@ -13,13 +13,14 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing Student Management System...'
-                bat 'dir'
+                bat 'bash scripts/test.sh'
             }
         }
 
         stage('Build') {
             steps {
-                echo 'Student Management System build successful!'
+                echo 'Building Student Management System...'
+                bat 'make build'
             }
         }
     }
