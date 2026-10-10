@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - "8000:80"
+    image: ghcr.io/${GITHUB_REPOSITORY:-skit-devops-2026/devops-24eskcs063}:latest
